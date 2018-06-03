@@ -50,7 +50,7 @@ Operations of List inlcudes:
 
 * search(value): if the item exists, return the item, else return null
 
-* inseart(value, pos): inseart an item at a sepecific position
+* insert(value, pos): inseart an item at a sepecific position
 
 * remove(pos): remove an item at a specific position
 
@@ -60,14 +60,29 @@ Operations of List inlcudes:
 
 One important assumption: 
 
-* We assume the array is compact, which means if there are N items in a size M array (M ≥ N), then only index [0..N-1] are occupied and other indices [N..M-1] should remain empty.
+* We assume the array is **compact**, which means if there are N items in a size M array (M ≥ N), then only index [0..N-1] are occupied and other indices [N..M-1] should remain empty.
 
 Two important features: 
 
 * get the value in O(n) if you know the position (index) of the value. 
 
-* fixed length once the array is created, which means if you want to increase the size, you have to copy all the values to a new and larger array.
+* **fixed** length once the array is created, which means if you want to increase the size, you have to copy all the values to a new and larger array.
 
 ![Array List](https://FanneYang.github.io/img/ArrayList.png)
 
+Time complexity of each operation is as below: 
 
+
+| Operations    | Best O(n)     | Worst O(n)    |
+
+
+| get           | O(1)          | O(1)          |
+
+
+| search        | O(1): i = 0   | O(n): i = n-1 |
+
+
+| insert        | O(1): i = n   | O(n): i = 0   |
+
+
+| remove        | O(1): i = n-1 | O(n): i = 0   |
