@@ -28,6 +28,8 @@ tags:								                # 标签
     
     2. Python - List (use as List, Stack, and Queue)
 
+* References
+
 
 
 ### Abstract Data Type 
@@ -64,7 +66,7 @@ One important assumption:
 
 Two important features: 
 
-* get the value in O(n) if you know the position (index) of the value. 
+* get the value in O(1) if you know the position (index) of the value. 
 
 * **fixed** length once the array is created, which means if you want to increase the size, you have to copy all the values to a new and larger array.
 
@@ -79,8 +81,35 @@ Time complexity of each operation is as below:
 | insert        | O(1): i = n   | O(n): i = 0   |
 | remove        | O(1): i = n-1 | O(n): i = 0   |
 
-Fas twhen **get** and fair enough when **search**.
+Fast when **get** and fair enough when **search**.
 
 Slow when **insert** and **remove** with countless **RESIZE、COPYING、SHIFTING、and WASTED SPACE**!
 
 ![Array List](https://FanneYang.github.io/img/ArrayListOp.png)
+
+
+
+#### Implementation - Linked Node 
+
+Motivation:
+
+* Flexiable Size
+
+* Non-contiguous in memory
+
+**Note:** 
+
+You cannot get the item in O(1) even if you know the position (index) of the item. You have to search for it first!
+
+![Linked List](https://FanneYang.github.io/img/LinkedListOp.png)
+
+Time complexity of each operation is as below: 
+
+| Operations    | Best O(n)     | Worst O(n)    |
+| ------------- | ------------- | ------------- |
+| get           | O(n)          | O(n)          |
+| search        | O(1): i = 0   | O(n): i = n-1 |
+| insert        | O(n): i = n   | O(1): i = 0   |
+| remove        | O(n): i = n-1 | O(1): i = 0   |
+
+
