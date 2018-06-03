@@ -16,10 +16,10 @@ sidebar-avatar: /img/avatar-m.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-weibo_username:     最后的最后是最初
-zhihu_username:     杨小嘿
-github_username:    FanneYang
-facebook_username:  杨帆
+weibo_username:     2886456995
+zhihu_username:     fanneyang
+github_username:    fanneyang
+facebook_username:  fanneyangbiu
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
