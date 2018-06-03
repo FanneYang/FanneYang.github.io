@@ -68,6 +68,6 @@ Two important features:
 
 * fixed length once the array is created, which means if you want to increase the size, you have to copy all the values to a new and larger array.
 
-![Array List](https://github.com/FanneYang/FanneYang.github.io/blob/master/img/ArrayList.png)
+![Array List](https://FanneYang.github.io/img/ArrayList.png)
 
 
