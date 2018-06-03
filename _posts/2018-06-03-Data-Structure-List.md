@@ -60,7 +60,7 @@ Operations of List inlcudes:
 
 One important assumption: 
 
-* We assume the array is **compact**, which means if there are N items in a size M array (M ≥ N), then only index [0..N-1] are occupied and other indices [N..M-1] should remain empty.
+* We assume the array is **compact**, which means contiguous in memory. If there are N items in a size M array (M ≥ N), then only index [0..N-1] are occupied and other indices [N..M-1] should remain empty.
 
 Two important features: 
 
@@ -78,3 +78,9 @@ Time complexity of each operation is as below:
 | search        | O(1): i = 0   | O(n): i = n-1 |
 | insert        | O(1): i = n   | O(n): i = 0   |
 | remove        | O(1): i = n-1 | O(n): i = 0   |
+
+Fast in **get** and fair enough in **search**.
+
+Slow in **insert** and **remove** with countless **RESIZE、COPYING、SHIFTING、and WASTED SPACE**!
+
+![Array List](https://FanneYang.github.io/img/ArrayListOp.png)
