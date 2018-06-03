@@ -31,3 +31,13 @@ tags:								                # 标签
 
 
 ### Abstract Data Type 
+
+> "A class of objects, whose logical behavior is defined by a set of values and a set of operations."
+
+An abstract data type is a logical concept, which defines how to organize and operate the original data. However, it does not define how to implement itself in a specific programming language.
+
+
+
+### List
+
+
