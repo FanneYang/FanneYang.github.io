@@ -9,3 +9,19 @@ catalog: true 						                # 是否归档
 tags:								                # 标签
     - Technology
 ---
+
+# Data Structure - List
+
+## Overview
+
+* Abstract Data Type
+
+* List, Stack, Queue and Deque
+
+* Implementation - Array, Linked Node
+
+* Standard Library (API) - 
+
+    1. Java - Class: ArrayList, LinkedList, Stack; Interface: Queue, Deque
+    
+    2. Python - List (use as List, Stack, and Queue)
