@@ -12,8 +12,6 @@ tags:								                # 标签
 
 # Data Structure - List 
 
-***
-
 ## Overview 
 
 ***
