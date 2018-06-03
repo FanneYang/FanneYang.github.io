@@ -10,9 +10,13 @@ tags:								                # 标签
     - Technology
 ---
 
-# Data Structure - List
+# Data Structure - List 
 
-## Overview
+***
+
+## Overview 
+
+***
 
 * Abstract Data Type
 
@@ -20,8 +24,12 @@ tags:								                # 标签
 
 * Implementation - Array, Linked Node
 
-* Standard Library (API) - 
+* Standard Library (API)
 
     1. Java - Class: ArrayList, LinkedList, Stack; Interface: Queue, Deque
     
     2. Python - List (use as List, Stack, and Queue)
+
+***
+
+### Abstract Data Type
