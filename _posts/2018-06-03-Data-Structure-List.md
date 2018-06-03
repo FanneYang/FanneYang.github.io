@@ -73,18 +73,8 @@ Two important features:
 Time complexity of each operation is as below: 
 
 | Operations    | Best O(n)     | Worst O(n)    |
-
-
 | ------------- | ------------- | ------------- |
-
-
 | get           | O(1)          | O(1)          |
-
-
 | search        | O(1): i = 0   | O(n): i = n-1 |
-
-
 | insert        | O(1): i = n   | O(n): i = 0   |
-
-
 | remove        | O(1): i = n-1 | O(n): i = 0   |
