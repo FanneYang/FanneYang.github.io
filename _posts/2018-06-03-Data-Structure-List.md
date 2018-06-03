@@ -18,9 +18,9 @@ tags:								                # 标签
 
 * Abstract Data Type
 
-* List, Stack, Queue and Deque
+* List and Implementation - Array or Linked Node
 
-* Implementation - Array, Linked Node
+* Stack, Queue and Deque
 
 * Standard Library (API)
 
@@ -34,10 +34,40 @@ tags:								                # 标签
 
 > "A class of objects, whose logical behavior is defined by a set of values and a set of operations."
 
-An abstract data type is a logical concept, which defines how to organize and operate the original data. However, it does not define how to implement itself in a specific programming language.
+An abstract data type is a logical concept, which defines how to organize and operate the original data. However, it does not define how to implement itself in a specific programming language. 
+
+List, Stack, Queue and Deque are all abstract data types.
 
 
 
 ### List
+
+> List is a sequence of items/data where positional order matters. 
+
+Operations of List inlcudes: 
+
+* get(pos): return value of the item at a sepecific position
+
+* search(value): if the item exists, return the item, else return null
+
+* inseart(value, pos): inseart an item at a sepecific position
+
+* remove(pos): remove an item at a specific position
+
+
+
+#### Implementation - Array 
+
+One important assumption: 
+
+* We assume the array is compact, which means if there are N items in a size M array (M ≥ N), then only index [0..N-1] are occupied and other indices [N..M-1] should remain empty.
+
+Two important features: 
+
+* get the value in O(n) if you know the position (index) of the value. 
+
+* fixed length once the array is created, which means if you want to increase the size, you have to copy all the values to a new and larger array.
+
+![Array List](https://github.com/FanneYang/FanneYang.github.io/blob/master/img/ArrayList.png)
 
 
