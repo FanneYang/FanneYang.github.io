@@ -20,7 +20,7 @@ tags:								                # 标签
 
 * List and Implementation - Array or Linked Node
 
-* Stack, Queue and Deque
+* Stack, Queue, Doubly List and Deque
 
 * Standard Library (API)
 
@@ -58,7 +58,7 @@ Operations of List inlcudes:
 
 
 
-#### Implementation - Array 
+### List Implementation - Array 
 
 One important assumption: 
 
@@ -89,7 +89,7 @@ Slow when **insert** and **remove** with countless **RESIZE、COPYING、SHIFTING
 
 
 
-#### Implementation - Linked Node 
+### List Implementation - Linked Node 
 
 Motivation:
 
@@ -113,3 +113,32 @@ Time complexity of each operation is as below:
 | remove        | O(n): i = n-1 | O(1): i = 0   |
 
 
+
+### Stack 
+
+Last-In-First-Out
+
+![Stack](https://FanneYang.github.io/img/StackOp.png)
+
+Operations of Stack inlcudes: 
+
+* peek(): return value of the item at **head** (restricted get)
+
+* ~~search(value): if the item exists, return the item, else return null~~ (not available)
+
+* push(value): inseart an item at **head** (restricted insert)
+
+* pop(): remove an item at **head** (restricted remove)
+
+All operations are **O(1)**!
+
+
+### Queue 
+
+First-In-First-Out
+
+### Doubly List 
+
+
+
+### Deque
