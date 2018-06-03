@@ -12,9 +12,9 @@ tags:								                # 标签
 
 ## Data Structure - List 
 
-### Overview 
-
 ***
+
+### Overview 
 
 * Abstract Data Type
 
@@ -27,5 +27,7 @@ tags:								                # 标签
     1. Java - Class: ArrayList, LinkedList, Stack; Interface: Queue, Deque
     
     2. Python - List (use as List, Stack, and Queue)
+
+
 
 ### Abstract Data Type 
