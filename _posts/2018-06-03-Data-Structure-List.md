@@ -79,8 +79,8 @@ Time complexity of each operation is as below:
 | insert        | O(1): i = n   | O(n): i = 0   |
 | remove        | O(1): i = n-1 | O(n): i = 0   |
 
-Fast in **get** and fair enough in **search**.
+Fas twhen **get** and fair enough when **search**.
 
-Slow in **insert** and **remove** with countless **RESIZE、COPYING、SHIFTING、and WASTED SPACE**!
+Slow when **insert** and **remove** with countless **RESIZE、COPYING、SHIFTING、and WASTED SPACE**!
 
 ![Array List](https://FanneYang.github.io/img/ArrayListOp.png)
