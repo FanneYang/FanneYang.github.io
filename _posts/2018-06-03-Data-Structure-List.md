@@ -10,9 +10,9 @@ tags:								                # 标签
     - Technology
 ---
 
-# Data Structure - List 
+## Data Structure - List 
 
-## Overview 
+### Overview 
 
 ***
 
@@ -28,6 +28,4 @@ tags:								                # 标签
     
     2. Python - List (use as List, Stack, and Queue)
 
-***
-
-### Abstract Data Type
+### Abstract Data Type 
