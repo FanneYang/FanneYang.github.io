@@ -22,7 +22,7 @@ tags:								                # 标签
 
 * Stack, Queue, Doubly List and Deque
 
-* Standard Library (API)
+* Next Post - Standard Library (API)
 
     1. Java - Class: ArrayList, LinkedList, Stack; Interface: Queue, Deque
     
@@ -114,6 +114,12 @@ Time complexity of each operation is as below:
 
 
 
+### List Implementation - Doubly Linked List 
+
+If each item can remember the previous item and the next item, When we remove/insert, we don't need the temporary item to store the previous item. 
+
+
+
 ### Stack 
 
 Last-In-First-Out
@@ -154,8 +160,26 @@ All operations are **O(1)**!
 
 
 
-### Doubly List 
+### Deque 
+
+What if the cinema has two doors and both two doors are used?
+
+Similar to the Doubly Linked List, but can also insert/remove/get from the head or the tail, not the middle!
 
 
 
-### Deque
+### Next Post! 
+
+Next post we will discuss the specific implementation in a certain programming language (Java) and the standard library we can use based on different programming language (Java and Python).
+
+
+
+### Reference 
+
+* [How to write Markdown](http://itmyhome.com/markdown/article/extension/strikethrougn.html)
+
+* [Understand Data Structure easily](https://visualgo.net/en)
+
+* [Learning schedule](http://www1.cs.columbia.edu/~bert/courses/3134/#schedule)
+
+
