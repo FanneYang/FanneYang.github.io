@@ -138,6 +138,22 @@ All operations are **O(1)**!
 
 First-In-First-Out
 
+![Queue](https://FanneYang.github.io/img/QueueOp.png)
+
+Operations of Stack inlcudes: 
+
+* peek(): return value of the item at **head** (restricted get)
+
+* ~~search(value): if the item exists, return the item, else return null~~ (not available)
+
+* push(value): inseart an item at **tail** (restricted insert, also called Enqueue)
+
+* pop(): remove an item at **head** (restricted remove, also called Dequeue)
+
+All operations are **O(1)**!
+
+
+
 ### Doubly List 
 
 
